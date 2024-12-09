@@ -6,6 +6,8 @@ Based on the fantastic reverse engineering work of https://github.com/htool/pico
 
 Tested with Simarine Pico rev2 and firmware 1.17
 
+Used by https://github.com/christopher-strack/esp-simarine-home-assistant
+
 ## Requirements
 
 Requires C++ 23
@@ -41,6 +43,9 @@ See the examples directory on how to use the library:
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## References
+
+See https://github.com/christopher-strack/esp-simarine-home-assistant for an
+example usage
 
 See https://github.com/christopher-strack/spymarine for a Python
 version of the library.
