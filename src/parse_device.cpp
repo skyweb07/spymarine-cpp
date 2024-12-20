@@ -139,7 +139,7 @@ parse_device(const std::span<const uint8_t> bytes,
   case 14:
     return unknown_device{};
   default:
-    return std::unexpected{parse_error::invalid_device_type};
+    return unknown_device{};
   }
 
   return std::unexpected{parse_error::invalid_device_message};
